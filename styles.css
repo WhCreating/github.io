@@ -1,0 +1,149 @@
+
+
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.header {
+    position:relative;
+    top: -27px;
+    background-color: #1c1c1c;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 2.2vh;
+    color: white;
+}
+
+.body {
+    position: relative;
+    top: -50px;
+    background-color: #363636;
+    width: 100vw;
+    height: 290vh;
+}
+
+.bod {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+}
+
+.inf {
+    position: relative;
+    top: -70px;
+    background-color: #2b2b2b;
+    width: 100vw;
+    height: 50vh;
+    align-content: center;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.footer {
+    position: relative;
+    background-color: #1c1c1c;
+    color: white;
+    top: -86px;
+    width: 100vw;
+    height: 20vh;
+    bottom: 0px;
+    align-content: center;
+    font-size: 3vh;
+}
+
+#but:hover {
+    transform:translateY(-8px);
+    box-shadow: -5px -5px 4px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 1);
+    transition: all 1s ease-out;
+    
+}
+
+#but {
+    font-family: 'Courier New', Courier, monospace;
+    width: 350px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: #1c1c1c;
+    font-size: 3.8vh;
+
+}
+
+
+
+
+h1 {
+    position: relative;
+    top: 3vh;
+}
+
+code {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+img {
+    width: 24vw;
+    align-content: center;
+}
+
+@media screen and (max-width: 500px){
+    img {
+        width: 60vw;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 414px){
+    img {
+        width: 80vw;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 850px){
+    img {
+        width: 66vw;
+        align-content: center;
+        
+    }
+
+    .header {
+        position:relative;
+        top: -32px;
+        background-color: #1c1c1c;
+        width: 100vw;
+        height: 11vh;
+        text-align: center;
+        font-size: 2.2vh;
+        color: white;
+    }
+
+    .body {
+        position: relative;
+        top: -59px;
+        background-color: #363636;
+        width: 100vw;
+        height: 290vh;
+    }
+    
+}
+
+pre {
+    white-space: pre-wrap; /* Сохраняет пробелы и переносы строк, но разрешает перенос длинных строк */
+    word-wrap: break-word;
+}
